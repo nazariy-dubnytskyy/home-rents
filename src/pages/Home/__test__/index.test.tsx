@@ -6,7 +6,7 @@ import { render } from '../../../utils/test-utils';
 import Home from '..';
 
 describe('Home page', () => {
-  it('render correctly', () => {
+  it('renders correctly', () => {
     const { container, getByText } = render(<Home />);
 
     expect(getByText('Home page')).toBeInTheDocument();

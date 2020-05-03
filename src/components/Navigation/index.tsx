@@ -1,13 +1,20 @@
 import * as React from 'react';
 import { Link } from 'react-router-dom';
 
+import {
+  Wrapper,
+  Menu,
+  MenuItem,
+} from './styles';
+
 function Navigation() {
   return (
-    <nav>
-      <ul>
-        <li><Link to='/register-tenant'>Register</Link></li>
-      </ul>
-    </nav>
+    <Wrapper>
+      <Menu>
+        <MenuItem><Link to='/'>Home</Link></MenuItem>
+        <MenuItem><Link to='/register-tenant'>Register</Link></MenuItem>
+      </Menu>
+    </Wrapper>
   )
 }
 
