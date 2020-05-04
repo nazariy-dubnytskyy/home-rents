@@ -1,7 +1,9 @@
 import * as React from 'react';
+
 import TenantContext from '../../context';
 import { Title } from '../../styles';
 import { DetailsRow, Label, Value } from './styles';
+import { salaryRanges } from '../../../../constants';
 
 function RegisterTenantSummary() {
   const {
@@ -10,6 +12,7 @@ function RegisterTenantSummary() {
     phone,
     salaryRange,
   } = React.useContext(TenantContext);
+  const salaryRangeValue = salaryRanges[salaryRange-1].label;
 
   return (
     <>
@@ -28,7 +31,7 @@ function RegisterTenantSummary() {
       </DetailsRow>
       <DetailsRow>
         <Label>Salary</Label>
-        <Value>{salaryRange}</Value>
+        <Value>{salaryRangeValue}</Value>
       </DetailsRow>
     </>
   );
