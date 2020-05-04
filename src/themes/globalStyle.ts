@@ -8,7 +8,8 @@ const GlobalStyle = createGlobalStyle`
     font-family: ${props => props.theme.font.family};
     font-size: ${props => props.theme.font.defaultSize};
     background-color: ${props => props.theme.background.light};
-    padding: 0 20px;
+    display: flex;
+    justify-content: center;
   }
 
   a {

@@ -2,13 +2,13 @@
 
 exports[`Navigation component renders correctly 1`] = `
 <nav
-  class="sc-AxjAm ddzPpr"
+  class="sc-AxjAm dziQKn"
 >
   <ul
-    class="sc-AxirZ fvpbAG"
+    class="sc-AxirZ gvYqiO"
   >
     <li
-      class="sc-AxiKw gmGsig"
+      class="sc-AxiKw AaZUP"
     >
       <a
         href="/"
@@ -17,10 +17,10 @@ exports[`Navigation component renders correctly 1`] = `
       </a>
     </li>
     <li
-      class="sc-AxiKw gmGsig"
+      class="sc-AxiKw AaZUP"
     >
       <a
-        href="/register-tenant"
+        href="/register-tenant/name"
       >
         Register
       </a>

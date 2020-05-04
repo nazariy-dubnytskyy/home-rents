@@ -29,6 +29,6 @@ describe('Navigation component', () => {
     const registerLink = getByText('Register').closest('a');
 
     expect(homeLink).toHaveAttribute('href', '/');
-    expect(registerLink).toHaveAttribute('href', '/register-tenant');
+    expect(registerLink).toHaveAttribute('href', '/register-tenant/name');
   });
 });

@@ -1,30 +1,44 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Routes component renders correctly 1`] = `
-<nav
-  class="sc-AxjAm ddzPpr"
+<div
+  class="sc-fzokOt gOMuPb"
 >
-  <ul
-    class="sc-AxirZ fvpbAG"
+  <nav
+    class="sc-AxjAm dziQKn"
   >
-    <li
-      class="sc-AxiKw gmGsig"
+    <ul
+      class="sc-AxirZ gvYqiO"
     >
-      <a
-        href="/"
+      <li
+        class="sc-AxiKw AaZUP"
       >
-        Home
-      </a>
-    </li>
-    <li
-      class="sc-AxiKw gmGsig"
+        <a
+          href="/"
+        >
+          Home
+        </a>
+      </li>
+      <li
+        class="sc-AxiKw AaZUP"
+      >
+        <a
+          href="/register-tenant/name"
+        >
+          Register
+        </a>
+      </li>
+    </ul>
+  </nav>
+  <div
+    class="sc-AxhCb hAQIIS"
+  >
+    This is implementation of 
+    <a
+      href="https://www.notion.so/Frontend-Challenge-vo2-2020-bea9e123187f405e9c58db8c9e5f0320"
     >
-      <a
-        href="/register-tenant"
-      >
-        Register
-      </a>
-    </li>
-  </ul>
-</nav>
+      Frontend Challenge vo2 - 2020.
+    </a>
+  </div>
+</div>
 `;

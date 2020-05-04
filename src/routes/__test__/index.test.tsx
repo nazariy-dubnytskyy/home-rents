@@ -23,7 +23,7 @@ describe('Routes component', () => {
     const link = getByText('Home').closest('a');
 
     fireEvent.click(link);
-    expect(document.body.textContent).toContain('Home page');
+    expect(document.body.textContent).toContain('Frontend Challenge vo2 - 2020.');
   })
 
   it('Register link goes to Register page', () => {
@@ -31,7 +31,7 @@ describe('Routes component', () => {
     const link = getByText('Register').closest('a');
 
     fireEvent.click(link);
-    expect(document.body.textContent).toContain('RegisterTenant page');
+    expect(document.body.textContent).toContain('Please enter your full name');
   })
 
 });

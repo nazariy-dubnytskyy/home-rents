@@ -7,9 +7,8 @@ import Home from '..';
 
 describe('Home page', () => {
   it('renders correctly', () => {
-    const { container, getByText } = render(<Home />);
+    const { container } = render(<Home />);
 
-    expect(getByText('Home page')).toBeInTheDocument();
     expect(container.firstChild).toMatchSnapshot();
   });
 });

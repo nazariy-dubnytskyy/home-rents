@@ -12,7 +12,7 @@ function Navigation() {
     <Wrapper>
       <Menu>
         <MenuItem><Link to='/'>Home</Link></MenuItem>
-        <MenuItem><Link to='/register-tenant'>Register</Link></MenuItem>
+        <MenuItem><Link to='/register-tenant/name'>Register</Link></MenuItem>
       </Menu>
     </Wrapper>
   )

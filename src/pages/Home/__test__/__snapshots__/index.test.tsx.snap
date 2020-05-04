@@ -1,7 +1,14 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Home page renders correctly 1`] = `
-<div>
-  Home page
+<div
+  class="sc-AxjAm gDzslF"
+>
+  This is implementation of 
+  <a
+    href="https://www.notion.so/Frontend-Challenge-vo2-2020-bea9e123187f405e9c58db8c9e5f0320"
+  >
+    Frontend Challenge vo2 - 2020.
+  </a>
 </div>
 `;
